@@ -1,0 +1,252 @@
+{
+  "limites": [
+    {
+      "id": "1",
+      "content": "El sistema se implementará en una fase inicial solamente en una sede específica de la empresa."
+    },
+    {
+      "id": "2",
+      "content": "La importación de datos históricos se limitará a un período específico para garantizar una migración eficiente. No se migrarán todos los datos."
+    },
+    {
+      "id": "3",
+      "content": "La fase de prueba inicial se llevará a cabo exclusivamente con el equipo interno de la empresa embotelladora, excluyendo personal externo."
+    },
+    {
+      "id": "4",
+      "content": "La integración con sistemas externos existentes se limitará a los necesarios para el funcionamiento del nuevo sistema."
+    },
+    {
+      "id": "5",
+      "content": "Se proporcionará acompañamiento y soporte técnico de manera gratuita durante los primeros 3 meses posteriores a la entrega del sistema. Este soporte incluirá correcciones de errores y asistencia para garantizar una transición sin contratiempos.      "
+    },
+    {
+      "id": "6",
+      "content": "Se ofrecerá un soporte extendido por un año, sin embargo, este servicio estará sujeto a una tarifa adicional por horas de trabajo de nuestros ingenieros. Este modelo permitirá un acceso continuo al soporte técnico, pero con costos asociados según las necesidades específicas del cliente."
+    }
+  ],
+  "alcances": [
+    {
+      "id": "1",
+      "content": "El sistema abarcará todas las fases del proceso comercial, desde la toma de pedidos hasta la entrega y facturación."
+    },
+    {
+      "id": "2",
+      "content": "Se implementarán mecanismos de seguridad avanzados para proteger la integridad y confidencialidad de los datos."
+    },
+    {
+      "id": "3",
+      "content": "Se proporcionará capacitación personalizada al personal para garantizar una transición y una adopción efectiva del nuevo sistema."
+    },
+    {
+      "id": "4",
+      "content": "Se establecerá un plan de mantenimiento para garantizar la actualización continua y la resolución rápida de problemas.      "
+    },
+    {
+      "id": "5",
+      "content": "Se desarrollará una API para facilitar la integración futura con sistemas de terceros, permitiendo una mayor flexibilidad y expansión en el ecosistema tecnológico.      "
+    },
+    {
+      "id": "6",
+      "content": "Se añadirá un módulo específico para gestionar de manera eficiente las devoluciones de productos, mejorando la experiencia del cliente y la eficacia operativa."
+    },
+    {
+      "id": "7",
+      "content": "Se diseñará e implementará una interfaz de usuario amigable para mejorar la experiencia de los usuarios."
+    },
+    {
+      "id": "8",
+      "content": "Se integrarán herramientas de comunicación interna en el sistema para mejorar la colaboración y la eficiencia operativa."
+    }
+  ],
+  "obj_esp": [
+    {
+      "id": "1",
+      "src": "./img/money-transfer.png",
+      "title": "Transacciones",
+      "description": "Diseñar y desplegar un módulo que permita el seguimiento de las transacciones comerciales."
+    },
+    {
+      "id": "2",
+      "src": "./img/inventory.png",
+      "title": "Inventarios",
+      "description": "Desarrollar un módulo de control de inventarios en tiempo real para garantizar la disponibilidad de productos.      "
+    },
+    {
+      "id": "3",
+      "src": "./img/bill.png",
+      "title": "Facturación",
+      "description": "Establecer un proceso automatizado de facturación para agilizar la generación de documentos fiscales. "
+    },
+    {
+      "id": "4",
+      "src": "./img/box.png",
+      "title": "Envíos",
+      "description": "Crear un sistema de gestión de entregas de pedidos que mejore rutas y tiempos."
+    }
+  ],
+  "linksplan": [
+    {
+      "id": "1",
+      "src": "./img/gantt.png",
+      "title": "Cronograma de Proyecto",
+      "description": "Diagrama de Gantt, comprendido en alrededor de 6 meses y resaltando los roles de los colaboradores.",
+      "linkName": "Ver Diagrama",
+      "link": "https://www.onlinegantt.com/#/gantt"
+    },
+    {
+      "id": "2",
+      "src": "./img/ganttDev.png",
+      "title": "Cronograma de Desarrollo",
+      "description": "Diagrama de Gantt, comprendido en alrededor de 4 meses y resaltando los roles de los colaboradores.",
+      "linkName": "Ver Diagrama",
+      "link": "https://www.onlinegantt.com/#/gantt"
+    },
+    {
+      "id": "3",
+      "src": "./img/risks.png",
+      "title": "Riesgos",
+      "description": "Descripción de riesgos y matriz de impacto",
+      "linkName": "Ver Documento",
+      "link": "https://docs.google.com/document/d/1Obvdfs3Uxm4IdSysuNfO8mUPRguIi3DRYiJl2lV0J6k/edit"
+    }
+  ],
+
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/placeholder-image.png",
+      "title": "Ahuse",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    },
+    {
+      "id": "2",
+      "src": "./img/placeholder-image-1.png",
+      "title": "App Dashboard",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    },
+    {
+      "id": "3",
+      "src": "./img/placeholder-image-2.png",
+      "title": "Easy Rentn",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    }
+  ],
+  "requerimientos": [
+    {
+      "Código": "RF-01",
+      "Nombre": "Registro de Ventas",
+      "Prioridad": "Alta",
+      "Descripción": "La aplicación debe permitir registrar nuevas ventas, incluyendo detalles como productos, cantidades y clientes.",
+      "Entrada": "Datos de venta, productos, cliente",
+      "Proceso": "Validar los campos de entrada",
+      "Salida": "Confirmación de registro de venta",
+      "imagen": "./img/case1.png"
+    },
+    {
+      "Código": "RF-02",
+      "Nombre": "Cobro en línea",
+      "Prioridad": "Media",
+      "Descripción": "La aplicación debe permitir realizar cobros en línea a través de una pasarela de pagos.",
+      "Entrada": "Información de la transacción, pasarela de pagos",
+      "Proceso": "Procesar el cobro en línea",
+      "Salida": "Confirmación del cobro y comprobante de pago",
+      "imagen": "./img/case2.png"
+    },
+    {
+      "Código": "RF-03",
+      "Nombre": "Generación de Facturas",
+      "Prioridad": "Alta",
+      "Descripción": "La aplicación debe generar y enviar facturas digitales a los clientes después de cada venta.",
+      "Entrada": "Datos de venta, cliente",
+      "Proceso": "Generar factura digital y enviar por correo",
+      "Salida": "Factura digital enviada al cliente",
+      "imagen": "./img/case3.png"
+    },
+    {
+      "Código": "RF-04",
+      "Nombre": "Grupos de Pedidos",
+      "Prioridad": "Media",
+      "Descripción": "La aplicación debe permitir la creación de grupos de pedidos basados en inventarios.",
+      "Entrada": "Datos de inventario, pedidos",
+      "Proceso": "Agrupar pedidos según inventario disponible",
+      "Salida": "Confirmación de creación de grupo de pedidos",
+      "imagen": "./img/case4.png"
+    },
+    {
+      "Código": "RF-05",
+      "Nombre": "Diseño de Rutas de Envío",
+      "Prioridad": "Alta",
+      "Descripción": "La aplicación debe permitir diseñar rutas de envío para los productos vendidos.",
+      "Entrada": "Datos de pedidos, ubicaciones de entrega",
+      "Proceso": "Diseñar rutas de envío basadas en ubicaciones",
+      "Salida": "Rutas de envío diseñadas y disponibles",
+      "imagen": "./img/case5.png"
+    },
+    {
+      "Código": "RF-06",
+      "Nombre": "Monitoreo de Distribución",
+      "Prioridad": "Alta",
+      "Descripción": "La aplicación debe proporcionar un monitoreo activo de la distribución de pedidos a los clientes.",
+      "Entrada": "Datos de pedidos en tránsito",
+      "Proceso": "Monitorear el estado de los pedidos en tiempo real",
+      "Salida": "Información actualizada sobre la distribución",
+      "imagen": "./img/case6.png"
+    },
+    {
+      "Código": "RF-07",
+      "Nombre": "Generación de reportes",
+      "Prioridad": "Media",
+      "Descripción": "La aplicación debe proveer un informe en formato de reporte de cada proceso de venta",
+      "Entrada": "Datos de venta, inventarios, rutas y detalles de entrega",
+      "Proceso": "Resumir información relevante",
+      "Salida": "Reporte en formato CSV",
+      "imagen": "./img/case7.png"
+    }
+  ],
+  "uml": [
+    {
+      "id": "1",
+      "src": "./img/digclases.jpg",
+      "title": "Diagrama de Clases"
+    },
+    {
+      "id": "2",
+      "src": "./img/digwae.jpg",
+      "title": "Diagrama de WAE"
+    },
+    {
+      "id": "3",
+      "src": "./img/digsec.jpeg",
+      "title": "Diagrama de Secuencia"
+    },
+    {
+      "id": "4",
+      "src": "./img/digact.png",
+      "title": "Diagrama de Actividades"
+    }
+  ],
+  "cierre": [
+    {
+      "id": "1",
+      "src": "./img/cierre.png",
+      "title": "Carta de cierre",
+      "link": "https://docs.google.com/document/d/1HUoV29P1G6Z-bkAoyKksCN1NFe6VhzlSnmySqYWEGEQ/edit"
+    },
+    {
+      "id": "2",
+      "src": "./img/cierre2.png",
+      "title": "Manual de Sistema",
+      "link": "https://docs.google.com/document/d/1EZKG2FbXDYC3amwhCvhiQCdMyKMMlPOVVWB8ltMPLwM/edit"
+    },
+    {
+      "id": "3",
+      "src": "./img/cierre3.png",
+      "title": "Manual de Administrador",
+      "link": "https://docs.google.com/document/d/1qtP6uPIMjGSFwVYfNVi41cE_J2VwiGZi7lzi1zTtDas/edit#heading=h.17jnn3i0wbg7"
+    }
+  ]
+}
